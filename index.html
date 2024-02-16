@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Timed Coding Quiz</title>
+    <link rel="stylesheet" href="Assets/style.css" />
+</head>
+
+<body style="padding: 5%">
+    <div class="flex-container"> 
+        <div class="scores"><a href="./highscores.html">View Highscores</a></div>
+
+        <div class="timer">Time: <span id="time">0</span></div>
+    </div>  
+    <div class="wrapper" style="padding-top: 5%">
+        <div id="start-screen" class="start">
+            <h1>Timed Coding Quiz</h1>
+            <p>Try to answer the following code-related questions within the time limit. Be careful, because incorrect answers will penalize your score and time by 15 seconds!</p>
+            <button id="start">Start Quiz</button>
+        </div>
+        <div id="questions-box">
+            <div id="questions" class="style-box">
+                <h2 id="question-title"></h2>
+                <div id="choices" class="choices"></div>
+            </div>
+        </div>
+        <div id="results" class="hide">
+            <div id="end-screen" class="style-box">
+                <h2>Fin</h2>
+                <p id="final-score"></p>
+                <p>Enter initials:<input type="text" id="initial" max="3" /></p>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="./Assets/script.js"></script>
+</body>

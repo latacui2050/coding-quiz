@@ -1,0 +1,133 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scores {
+    display: flex;
+}
+
+.scores a {
+    text-decoration: #ffc93c wavy underline;
+    color: #ffc93c;
+    background-color: #155263;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.timer {
+    text-decoration: #155263 wavy underline;
+    color: #155263;
+    background-color: #ffc93c;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.start h1 {
+    display: flex;
+    justify-content: center;
+    color: #ff6f3c;
+}
+
+.start p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.start button {
+    align-self: center;
+}
+
+button {
+    background-color: #ff9a3c;
+    color: #155263;
+}
+
+button:hover {
+    font-weight: bold;
+}
+
+
+.hide {
+    display: none;
+}
+
+.style-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.style-box h2 {
+    display: flex;
+    justify-content: center;
+    color: #ff6f3c;
+    text-decoration: #ffc93c wavy underline;
+}
+
+.style-box p {
+    display: flex;
+    justify-content: center;
+}
+
+.style-box button {
+    align-self: center;
+}
+
+#question-title {
+    text-decoration: none;
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+}
+
+.highscore-style h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff6f3c;
+    text-decoration: #ffc93c wavy underline;
+}
+
+.highscore-style ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+    color: #155263;
+}
+
+.highscore-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.highscore-style button a {
+    text-decoration: none;
+}
+
+.highscore-style button a:visited {
+    color: #155263;
+}
+
+
+
+
+
